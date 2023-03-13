@@ -1,0 +1,26 @@
+[
+    {
+        "name": "linux-spark-sdk",
+        "preferredGenerator": {
+            "name": "Ninja"
+        },
+        "compilers": {
+            "ASM": "gcc",
+            "CC": "gcc",
+            "CXX": "g++"
+        },
+        "environmentSetupScript": "${workspaceFolder}/script/activate.sh"
+    },
+    {
+        "name": "windows-spark-sdk",
+        "preferredGenerator": {
+            "name": "Ninja"
+        },
+        "compilers": {
+            "ASM": "gcc",
+            "CC": "gcc",
+            "CXX": "g++"
+        },
+        "environmentSetupScript": "${workspaceFolder}/script/activate.bat"
+    }
+]

@@ -1,0 +1,55 @@
+{
+  "cmake.autoSelectActiveFolder": false,
+  "cmake.configureOnOpen": false,
+  "cmake.showSystemKits": false,
+  "cmake.cmakePath": "${workspaceFolder}/.vscode/run-cmake.cmd",
+  "cmake.generator": "Ninja",
+  "cmake.buildDirectory": "${workspaceRoot}/build/${variant:bsp}/${variant:app}",
+  "cmake.sourceDirectory": "${workspaceFolder}",
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, AlignAfterOpenBracket: Align, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: false, AlignConsecutiveMacros: true, AlignEscapedNewlines: Left, AlignOperands: true, AlignTrailingComments: true, AllowAllArgumentsOnNextLine: true, AllowShortBlocksOnASingleLine: false, AllowShortCaseLabelsOnASingleLine: false, AllowShortFunctionsOnASingleLine: false, AllowShortIfStatementsOnASingleLine: false, AllowShortLoopsOnASingleLine: false, BinPackArguments: false, BinPackParameters : false, BreakBeforeBraces: Linux, ColumnLimit: 120, IncludeBlocks: Merge, IndentWidth: 4, Language: Cpp, PointerAlignment: Right, SortIncludes: true, SpaceInEmptyParentheses: false, SpacesInParentheses: false, SpacesInSquareBrackets: false, TabWidth: 4, UseTab: Never}",
+  "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, AlignAfterOpenBracket: Align, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: false, AlignConsecutiveMacros: true, AlignEscapedNewlines: Left, AlignOperands: true, AlignTrailingComments: true, AllowAllArgumentsOnNextLine: true, AllowShortBlocksOnASingleLine: false, AllowShortCaseLabelsOnASingleLine: false, AllowShortFunctionsOnASingleLine: false, AllowShortIfStatementsOnASingleLine: false, AllowShortLoopsOnASingleLine: false, BinPackArguments: false, BinPackParameters : false, BreakBeforeBraces: Linux, ColumnLimit: 120, IncludeBlocks: Merge, IndentWidth: 4, Language: Cpp, PointerAlignment: Right, SortIncludes: true, SpaceInEmptyParentheses: false, SpacesInParentheses: false, SpacesInSquareBrackets: false, TabWidth: 4, UseTab: Never}",
+  "files.associations": {
+    "cmath": "c",
+    "*.h": "c",
+    "array": "cpp",
+    "bitset": "cpp",
+    "string_view": "cpp",
+    "rope": "cpp",
+    "slist": "cpp",
+    "initializer_list": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "regex": "cpp",
+    "utility": "cpp",
+    "valarray": "cpp"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": false,
+  "files.insertFinalNewline": true,
+  "editor.renderFinalNewline": "off",
+  "testMate.cpp.debug.configTemplate": {
+    "type": "cppdbg",
+    "program": "${exec}",
+    "args": "${argsArray}",
+    "cwd": "${cwd}",
+    "environment": "${envObjArray}",
+    "sourceFileMap": "${sourceFileMapObj}"
+  },
+  "doxdocgen.c.firstLine": "/** @brief ",
+  "doxdocgen.generic.briefTemplate": "",
+  "doxdocgen.generic.paramTemplate": " @param[in]{indent:12}{param}{indent:30}",
+  "doxdocgen.generic.returnTemplate": " @return{indent:30}",
+  "editor.rulers": [
+    140
+  ],
+  // Restructured Text
+  "esbonio.sphinx.confDir": "${workspaceFolder}/sdk-spark/doc/sphinx_doc/source",
+  "restructuredtext.linter.disabledLinters": [
+    "doc8",
+    "rst-lint",
+    "rstcheck"
+  ],
+  "python.defaultInterpreterPath": "${workspaceFolder}/.environment/bin/python",
+  "python.terminal.activateEnvironment": false,
+  "git.ignoreLimitWarning": true,
+}
