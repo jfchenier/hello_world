@@ -7,7 +7,10 @@ else
   return 1
 fi
 
-PROJECT_NAME=$( basename $SOURCE )
+ENV_FILE_PATH="$PROJECT_ROOT/environment.yml"
+
+# Read project name from environment file.
+PROJECT_NAME="$( grep '^name:' $ENV_FILE_PATH | sed 's/^name: //' )"
 
 export MAMBA_ROOT_PREFIX=$SOURCE/.micromamba
 export MAMBA_EXE="$MAMBA_ROOT_PREFIX/micromamba"
